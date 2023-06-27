@@ -1,5 +1,4 @@
 #this is the docker file for building my-apache image
 FROM  ubuntu
 MAINTAINER anil anilrockstar@gmail.com
-RUN  apt-get update -y && apt-get install openssh-server -y
-
+RUN  apt-get update -y
